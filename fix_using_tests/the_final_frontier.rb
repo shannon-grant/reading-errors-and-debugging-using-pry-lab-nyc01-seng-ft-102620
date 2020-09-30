@@ -12,7 +12,6 @@ end
 
 def engage
   puts state_log(date)
-  date = generate_star_date
   binding.pry
-  puts "cap log"
+  date = generate_star_date
 end
